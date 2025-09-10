@@ -10,3 +10,14 @@ let HoursofSleep = 8;
 let HoursofStudied = 5;
 
 console.log("Hours of sleep: " + HoursofSleep + "\nHours studied: " + HoursofStudied);
+
+//step 3
+let studyMessage = "";
+if(HoursofStudied >= 5){
+    studyMessage = "Great! You studied enough today.";
+}else{
+    studyMessage = "You need to  study more.";
+}
+console.log(studyMessage);
+
+
