@@ -27,4 +27,10 @@ for (let i = 0; i< subjects.length; i++) {
     console.log(("-") + subjects[i]);
 }
 
+//step 5
+function studentSummary(){
+    return "My name is " + name + " " + "a" + " " + yearLevel + " " + "from" + " " + course;
 
+}
+
+console.log(studentSummary());
